@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('foo', function () {
-    return ("Hello World");
+    return view("hello world");
 });
 // parameter optional
 // Route::get('user/{name?}',function($name= 'john'){
